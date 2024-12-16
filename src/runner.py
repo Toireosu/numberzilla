@@ -15,7 +15,7 @@ class Runner:
             self.window.display()
 
 
-def main():
+def main() -> None:
     Runner().run()
 
 if __name__ == "__main__":
