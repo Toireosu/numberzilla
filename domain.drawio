@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.9.3">
   <diagram name="Page-1" id="Ey0BQ0crwWneCLRDY8y6">
-    <mxGraphModel dx="2469" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1619" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,27 +35,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1AHhF5_QBsUl-tfPFjZc-17" value="PlayfieldView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="410" width="140" height="70" as="geometry" />
+          <mxGeometry x="355" y="410" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="1AHhF5_QBsUl-tfPFjZc-18" value="Displays the playfield onto screen." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1AHhF5_QBsUl-tfPFjZc-17">
-          <mxGeometry y="30" width="140" height="40" as="geometry" />
+        <mxCell id="1AHhF5_QBsUl-tfPFjZc-18" value="Displays the playfield onto screen. Also check which numbers you are selecting." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1AHhF5_QBsUl-tfPFjZc-17">
+          <mxGeometry y="30" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1AHhF5_QBsUl-tfPFjZc-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.291;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1AHhF5_QBsUl-tfPFjZc-18" target="1AHhF5_QBsUl-tfPFjZc-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="495" as="sourcePoint" />
             <mxPoint x="330" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1AHhF5_QBsUl-tfPFjZc-28" value="PlayfieldController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="420" width="140" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="1AHhF5_QBsUl-tfPFjZc-29" value="Takes mouse input and has logic for knowing which numbers are selected." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1AHhF5_QBsUl-tfPFjZc-28">
-          <mxGeometry y="30" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1AHhF5_QBsUl-tfPFjZc-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.007;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1AHhF5_QBsUl-tfPFjZc-29" target="1AHhF5_QBsUl-tfPFjZc-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="570" as="sourcePoint" />
-            <mxPoint x="140" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1AHhF5_QBsUl-tfPFjZc-33" value="PointsDisplay" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -73,7 +61,7 @@
         <mxCell id="1AHhF5_QBsUl-tfPFjZc-38" value="MoreNumbersButtonView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="610" width="150" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1AHhF5_QBsUl-tfPFjZc-39" value="Displays a button that you can press to get more numbers on screen" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1AHhF5_QBsUl-tfPFjZc-38">
+        <mxCell id="1AHhF5_QBsUl-tfPFjZc-39" value="Displays a button that you can press to get more numbers on screen. Also checks if button is pressed." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1AHhF5_QBsUl-tfPFjZc-38">
           <mxGeometry y="30" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1AHhF5_QBsUl-tfPFjZc-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.507;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1AHhF5_QBsUl-tfPFjZc-12">
