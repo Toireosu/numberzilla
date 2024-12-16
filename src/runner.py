@@ -12,6 +12,10 @@ class Runner:
 
             self.window.clear()
             
+            for y in range(10):
+                for x in range(10):
+                    self.window.render_text(str(x + y), x * 30, y * 30)
+
             self.window.display()
 
 
